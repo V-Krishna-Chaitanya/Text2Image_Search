@@ -1,0 +1,11 @@
+torch
+torchvision
+qdrant-client
+PIL
+numpy
+pandas
+streamlit
+matplotlib
+seaborn
+transformers
+streamlit
