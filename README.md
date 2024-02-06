@@ -1,6 +1,3 @@
-Based on the task description and code files you've provided, here's a draft for a README.md document for your Text2Image Search project:
-
----
 
 # Text2Image Search System
 
