@@ -15,13 +15,14 @@ The system is built with the following components:
 - **Streamlit App (`streamlit_app.py`)**: A user-friendly interface for performing text-to-image searches and displaying results.
 
 ## How to Run
-1. Install necessary dependencies:
+1. Ensure Python 3.10 environment compatibility for running this project
+2. Install necessary dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Prepare the dataset and extract embeddings using `data_loader.py`.
-   (Note:For running this project, place the Advertisement Image Dataset in the `data/subfolder-0/0` directory within your project folder. Ensure this dataset is structured properly for the data loader to process it effectively. After placing the dataset, run the provided Python scripts in sequence to generate image embeddings.)
-5. Run the Streamlit app:
+3. Prepare the dataset and extract embeddings using `data_loader.py`.
+   (Note:For running this project, place the Advertisement Image Dataset in the `data/subfolder-0/0` directory within your project folder. Ensure this dataset is structured properly for the data loader to process it effectively. After placing the dataset, run the provided Python scripts in sequence(as mentioned in implementation subsection above) to generate image embeddings.)
+4. Run the Streamlit app:
    ```bash
    streamlit run streamlit_app.py
    ```
